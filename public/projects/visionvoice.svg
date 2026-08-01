@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',system-ui,sans-serif">
+  <rect width="1200" height="675" fill="#0A0B12"/>
+  <rect x="40" y="40" width="1120" height="595" rx="16" fill="#F4F1EA"/>
+  <rect x="40" y="40" width="1120" height="54" rx="16" fill="#151827"/><rect x="40" y="70" width="1120" height="24" fill="#151827"/>
+  <circle cx="72" cy="67" r="7" fill="#4B7BFF"/><circle cx="96" cy="67" r="7" fill="#34D3F5"/><circle cx="120" cy="67" r="7" fill="#333A55"/>
+  <text x="600" y="72" fill="#B9C6BF" font-size="14" text-anchor="middle" font-family="monospace">visionvoice-ai</text>
+  <!-- tabs -->
+  <g font-size="15" font-weight="700">
+    <rect x="72" y="122" width="120" height="40" rx="9" fill="#4B7BFF"/><text x="132" y="147" fill="#F4F1EA" text-anchor="middle">Listen</text>
+    <rect x="204" y="122" width="120" height="40" rx="9" fill="#EAE4D6"/><text x="264" y="147" fill="#151827" text-anchor="middle">See</text>
+    <rect x="336" y="122" width="120" height="40" rx="9" fill="#EAE4D6"/><text x="396" y="147" fill="#151827" text-anchor="middle">Speak</text>
+    <rect x="468" y="122" width="120" height="40" rx="9" fill="#EAE4D6"/><text x="528" y="147" fill="#151827" text-anchor="middle">Create</text>
+  </g>
+  <!-- transcript panel -->
+  <rect x="72" y="186" width="640" height="410" rx="12" fill="#fff" stroke="#DCD5C4" stroke-width="2"/>
+  <text x="96" y="222" fill="#151827" font-size="15" font-weight="700">Transcription</text>
+  <!-- waveform -->
+  <g stroke="#34D3F5" stroke-width="7" stroke-linecap="round">
+    <line x1="110" y1="300" x2="110" y2="360"/><line x1="140" y1="270" x2="140" y2="390"/><line x1="170" y1="310" x2="170" y2="350"/>
+    <line x1="200" y1="250" x2="200" y2="410"/><line x1="230" y1="300" x2="230" y2="360"/><line x1="260" y1="280" x2="260" y2="380"/>
+    <line x1="290" y1="315" x2="290" y2="345"/><line x1="320" y1="262" x2="320" y2="398"/><line x1="350" y1="300" x2="350" y2="360"/>
+  </g>
+  <g fill="#3A3A32"><rect x="96" y="450" width="560" height="12" rx="6"/><rect x="96" y="480" width="500" height="12" rx="6"/><rect x="96" y="510" width="420" height="12" rx="6"/></g>
+  <!-- output panel: image + speaker -->
+  <rect x="736" y="186" width="394" height="410" rx="12" fill="#fff" stroke="#DCD5C4" stroke-width="2"/>
+  <text x="760" y="222" fill="#151827" font-size="15" font-weight="700">Generated image</text>
+  <rect x="760" y="242" width="346" height="220" rx="10" fill="#20263B"/>
+  <circle cx="840" cy="330" r="26" fill="#34D3F5"/><path d="M760 430 L850 350 L920 400 L1000 320 L1106 420 V462 H760 Z" fill="#151827" opacity="0.5"/>
+  <!-- speaker -->
+  <g transform="translate(820,520)" fill="none" stroke="#151827" stroke-width="4" stroke-linecap="round">
+    <path d="M-30 -16 h20 l24 -20 v72 l-24 -20 h-20 Z" fill="#151827"/><path d="M26 -22 a36 36 0 0 1 0 44"/><path d="M42 -36 a58 58 0 0 1 0 72"/>
+  </g>
+  <text x="920" y="548" fill="#151827" font-size="15" font-weight="700">Playing…</text>
+</svg>

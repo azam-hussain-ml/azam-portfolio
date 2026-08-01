@@ -1,0 +1,34 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',system-ui,sans-serif">
+  <rect width="1200" height="675" fill="#0A0B12"/>
+  <rect x="40" y="40" width="1120" height="595" rx="16" fill="#F4F1EA"/>
+  <rect x="40" y="40" width="1120" height="54" rx="16" fill="#151827"/><rect x="40" y="70" width="1120" height="24" fill="#151827"/>
+  <circle cx="72" cy="67" r="7" fill="#4B7BFF"/><circle cx="96" cy="67" r="7" fill="#34D3F5"/><circle cx="120" cy="67" r="7" fill="#333A55"/>
+  <text x="600" y="72" fill="#B9C6BF" font-size="14" text-anchor="middle" font-family="monospace">sentiment-analysis</text>
+  <text x="72" y="150" fill="#151827" font-size="20" font-weight="700">Review sentiment</text>
+  <!-- result badge -->
+  <rect x="850" y="124" width="278" height="52" rx="12" fill="#151827"/>
+  <circle cx="884" cy="150" r="14" fill="#7CB342"/><path d="M876 150 l6 6 l10 -12" stroke="#151827" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <text x="910" y="156" fill="#F4F1EA" font-size="16" font-weight="700">Positive · 87% F1</text>
+  <!-- chart card -->
+  <rect x="72" y="196" width="640" height="400" rx="12" fill="#fff" stroke="#DCD5C4" stroke-width="2"/>
+  <line x1="120" y1="540" x2="664" y2="540" stroke="#DCD5C4" stroke-width="2"/>
+  <line x1="120" y1="240" x2="120" y2="540" stroke="#DCD5C4" stroke-width="2"/>
+  <rect x="180" y="430" width="90" height="110" rx="6" fill="#333A55"/>
+  <rect x="320" y="370" width="90" height="170" rx="6" fill="#20263B"/>
+  <rect x="460" y="270" width="90" height="270" rx="6" fill="#4B7BFF"/>
+  <g font-size="14" fill="#6E7C74" text-anchor="middle"><text x="225" y="565">Negative</text><text x="365" y="565">Neutral</text><text x="505" y="565">Positive</text></g>
+  <!-- metrics card -->
+  <rect x="736" y="196" width="392" height="400" rx="12" fill="#fff" stroke="#DCD5C4" stroke-width="2"/>
+  <text x="762" y="234" fill="#151827" font-size="15" font-weight="700">Metrics</text>
+  <g font-family="monospace">
+    <text x="762" y="290" fill="#6E7C74" font-size="15">Accuracy</text><text x="1104" y="290" fill="#151827" font-size="15" font-weight="700" text-anchor="end">0.89</text>
+    <line x1="762" y1="308" x2="1104" y2="308" stroke="#EAE4D6" stroke-width="2"/>
+    <text x="762" y="346" fill="#6E7C74" font-size="15">F1 score</text><text x="1104" y="346" fill="#4B7BFF" font-size="15" font-weight="700" text-anchor="end">0.87</text>
+    <line x1="762" y1="364" x2="1104" y2="364" stroke="#EAE4D6" stroke-width="2"/>
+    <text x="762" y="402" fill="#6E7C74" font-size="15">Precision</text><text x="1104" y="402" fill="#151827" font-size="15" font-weight="700" text-anchor="end">0.88</text>
+    <line x1="762" y1="420" x2="1104" y2="420" stroke="#EAE4D6" stroke-width="2"/>
+    <text x="762" y="458" fill="#6E7C74" font-size="15">Recall</text><text x="1104" y="458" fill="#151827" font-size="15" font-weight="700" text-anchor="end">0.86</text>
+    <line x1="762" y1="476" x2="1104" y2="476" stroke="#EAE4D6" stroke-width="2"/>
+    <text x="762" y="514" fill="#6E7C74" font-size="15">Reviews</text><text x="1104" y="514" fill="#151827" font-size="15" font-weight="700" text-anchor="end">50,000</text>
+  </g>
+</svg>

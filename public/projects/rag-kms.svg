@@ -1,0 +1,31 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',system-ui,sans-serif">
+  <rect width="1200" height="675" fill="#0A0B12"/>
+  <rect x="40" y="40" width="1120" height="595" rx="16" fill="#F4F1EA"/>
+  <!-- title bar -->
+  <rect x="40" y="40" width="1120" height="54" rx="16" fill="#151827"/>
+  <rect x="40" y="70" width="1120" height="24" fill="#151827"/>
+  <circle cx="72" cy="67" r="7" fill="#4B7BFF"/><circle cx="96" cy="67" r="7" fill="#34D3F5"/><circle cx="120" cy="67" r="7" fill="#333A55"/>
+  <rect x="470" y="55" width="260" height="24" rx="12" fill="#20263B"/>
+  <text x="600" y="72" fill="#B9C6BF" font-size="14" text-anchor="middle" font-family="monospace">rag-knowledge-base</text>
+  <!-- sidebar: documents -->
+  <rect x="72" y="126" width="230" height="470" rx="10" fill="#EAE4D6"/>
+  <text x="92" y="158" fill="#151827" font-size="15" font-weight="700">Documents</text>
+  <g fill="#DCD5C4"><rect x="92" y="176" width="190" height="40" rx="7"/><rect x="92" y="226" width="190" height="40" rx="7"/><rect x="92" y="276" width="190" height="40" rx="7"/><rect x="92" y="326" width="190" height="40" rx="7"/></g>
+  <g fill="#151827"><rect x="106" y="190" width="14" height="12" rx="2"/><rect x="106" y="240" width="14" height="12" rx="2"/><rect x="106" y="290" width="14" height="12" rx="2"/><rect x="106" y="340" width="14" height="12" rx="2"/></g>
+  <g fill="#9AA79F"><rect x="130" y="191" width="130" height="9" rx="4"/><rect x="130" y="241" width="110" height="9" rx="4"/><rect x="130" y="291" width="140" height="9" rx="4"/><rect x="130" y="341" width="100" height="9" rx="4"/></g>
+  <!-- main: question -->
+  <rect x="330" y="126" width="800" height="56" rx="12" fill="#fff" stroke="#DCD5C4" stroke-width="2"/>
+  <text x="356" y="160" fill="#8A9088" font-size="18">Ask from your documents…</text>
+  <rect x="1020" y="138" width="92" height="32" rx="8" fill="#4B7BFF"/>
+  <text x="1066" y="160" fill="#F4F1EA" font-size="14" text-anchor="middle" font-weight="700">Ask</text>
+  <!-- answer card -->
+  <rect x="330" y="210" width="800" height="386" rx="12" fill="#fff" stroke="#DCD5C4" stroke-width="2"/>
+  <circle cx="362" cy="248" r="14" fill="#151827"/><path d="M355 248 l5 5 l9 -11" stroke="#34D3F5" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="390" y="254" fill="#151827" font-size="15" font-weight="700">Grounded answer</text>
+  <g fill="#3A3A32"><rect x="362" y="288" width="720" height="12" rx="6"/><rect x="362" y="318" width="740" height="12" rx="6"/><rect x="362" y="348" width="640" height="12" rx="6"/><rect x="362" y="378" width="700" height="12" rx="6"/><rect x="362" y="408" width="520" height="12" rx="6"/></g>
+  <!-- citation chips -->
+  <g><rect x="1000" y="284" width="82" height="22" rx="6" fill="none" stroke="#4B7BFF" stroke-width="1.5"/><text x="1041" y="300" fill="#4B7BFF" font-size="12" text-anchor="middle" font-family="monospace">doc·1</text>
+     <rect x="892" y="374" width="82" height="22" rx="6" fill="none" stroke="#4B7BFF" stroke-width="1.5"/><text x="933" y="390" fill="#4B7BFF" font-size="12" text-anchor="middle" font-family="monospace">doc·3</text></g>
+  <rect x="362" y="452" width="360" height="40" rx="8" fill="#EAF0EE"/>
+  <text x="382" y="477" fill="#151827" font-size="13" font-family="monospace">source: report_2024.pdf · p.12</text>
+</svg>

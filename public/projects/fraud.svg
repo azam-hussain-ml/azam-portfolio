@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',system-ui,sans-serif">
+  <rect width="1200" height="675" fill="#0A0B12"/>
+  <rect x="40" y="40" width="1120" height="595" rx="16" fill="#F4F1EA"/>
+  <rect x="40" y="40" width="1120" height="54" rx="16" fill="#151827"/><rect x="40" y="70" width="1120" height="24" fill="#151827"/>
+  <circle cx="72" cy="67" r="7" fill="#4B7BFF"/><circle cx="96" cy="67" r="7" fill="#34D3F5"/><circle cx="120" cy="67" r="7" fill="#333A55"/>
+  <text x="600" y="72" fill="#B9C6BF" font-size="14" text-anchor="middle" font-family="monospace">fraud-detection</text>
+  <text x="72" y="150" fill="#151827" font-size="20" font-weight="700">Transaction monitor</text>
+  <rect x="928" y="122" width="200" height="52" rx="12" fill="#151827"/>
+  <text x="1028" y="154" fill="#34D3F5" font-size="15" font-weight="700" text-anchor="middle" font-family="monospace">95% precision</text>
+  <!-- table header -->
+  <g font-size="14" fill="#6E7C74" font-family="monospace"><text x="96" y="212">TXN ID</text><text x="360" y="212">AMOUNT</text><text x="620" y="212">TIME</text><text x="1104" y="212" text-anchor="end">STATUS</text></g>
+  <line x1="72" y1="228" x2="1128" y2="228" stroke="#DCD5C4" stroke-width="2"/>
+  <!-- rows -->
+  <g font-family="monospace" font-size="15" fill="#3A3A32">
+    <text x="96" y="272">#8821049</text><text x="360" y="272">$42.10</text><text x="620" y="272">10:02</text>
+    <rect x="1020" y="256" width="108" height="26" rx="13" fill="#E4EDE9"/><text x="1074" y="274" fill="#2E7D5B" text-anchor="middle" font-size="13">approved</text>
+    <line x1="72" y1="298" x2="1128" y2="298" stroke="#EAE4D6" stroke-width="2"/>
+
+    <text x="96" y="342">#8821050</text><text x="360" y="342">$1,980.00</text><text x="620" y="342">10:03</text>
+    <rect x="1020" y="326" width="108" height="26" rx="13" fill="#E4EDE9"/><text x="1074" y="344" fill="#2E7D5B" text-anchor="middle" font-size="13">approved</text>
+  </g>
+  <!-- flagged row -->
+  <rect x="72" y="368" width="1056" height="56" rx="10" fill="#DDE6FF" stroke="#4B7BFF" stroke-width="2"/>
+  <g font-family="monospace" font-size="15" fill="#1E3A8A">
+    <text x="96" y="402">#8821051</text><text x="360" y="402">$7,450.00</text><text x="620" y="402">10:04</text>
+  </g>
+  <rect x="1012" y="382" width="104" height="28" rx="14" fill="#4B7BFF"/><text x="1064" y="401" fill="#F4F1EA" text-anchor="middle" font-size="13" font-weight="700">⚠ flagged</text>
+  <g font-family="monospace" font-size="15" fill="#3A3A32">
+    <text x="96" y="466">#8821052</text><text x="360" y="466">$16.30</text><text x="620" y="466">10:05</text>
+    <rect x="1020" y="450" width="108" height="26" rx="13" fill="#E4EDE9"/><text x="1074" y="468" fill="#2E7D5B" text-anchor="middle" font-size="13">approved</text>
+  </g>
+  <!-- shield -->
+  <g transform="translate(600,548)">
+    <path d="M0 -34 C14 -26 32 -26 34 -23 C34 12 17 32 0 40 C-17 32 -34 12 -34 -23 C-32 -26 -14 -26 0 -34 Z" fill="#151827"/>
+    <path d="M-13 -2 l9 10 l16 -19" stroke="#34D3F5" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="648" y="556" fill="#151827" font-size="15" font-weight="700">284,807 transactions · 91% recall</text>
+</svg>
