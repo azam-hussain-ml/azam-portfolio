@@ -1,8 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
-import { ArrowRight, Download, Github, Check } from "lucide-react";
+import { ArrowRight, Download, Github, Linkedin, Check } from "lucide-react";
 
 const GITHUB = "https://github.com/azam-hussain-ml";
+const LINKEDIN = "https://www.linkedin.com/in/azam-hussain-681695325";
 
 const TRUST = [
   "10+ AI Projects",
@@ -56,6 +57,9 @@ export default function Hero() {
             </a>
             <a href={GITHUB} target="_blank" rel="noreferrer" className="flex items-center gap-2 rounded-full border border-hair bg-panel/40 px-6 py-3 text-sm text-fog transition hover:-translate-y-0.5 hover:border-cyan hover:shadow-[0_0_28px_-6px_rgba(52,211,245,0.55)]">
               <Github size={15} /> GitHub
+            </a>
+            <a href={LINKEDIN} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 rounded-full border border-hair bg-panel/40 px-6 py-3 text-sm text-fog transition hover:-translate-y-0.5 hover:border-cyan hover:shadow-[0_0_28px_-6px_rgba(52,211,245,0.55)]">
+              <Linkedin size={15} /> LinkedIn
             </a>
             <a href="/resume.pdf" download className="flex items-center gap-2 rounded-full border border-hair bg-panel/40 px-6 py-3 text-sm text-fog transition hover:-translate-y-0.5 hover:border-cyan hover:shadow-[0_0_28px_-6px_rgba(52,211,245,0.55)]">
               <Download size={15} /> Download CV
