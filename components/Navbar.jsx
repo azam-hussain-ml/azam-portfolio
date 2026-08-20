@@ -47,7 +47,7 @@ export default function Navbar() {
             </span>
 
             <span className="mt-1 font-mono text-[0.6rem] text-mist">
-              AI Engineer • Generative AI • RAG
+              AI/ML Engineer • Generative AI • RAG
             </span>
           </span>
         </a>
